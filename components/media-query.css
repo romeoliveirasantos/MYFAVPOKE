@@ -1,0 +1,13 @@
+@media (min-width: 280px) and (max-width: 480px){
+  .main-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+  }
+  .header-nav{
+    
+  }
+}
