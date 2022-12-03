@@ -1,4 +1,4 @@
-@media (min-width: 280px) and (max-width: 480px){
+@media (min-width: 280px) and (max-width: 520px){
   .main-header{
     display:flex;
     flex-direction: column;
@@ -9,5 +9,9 @@
   }
   .header-nav{
     
+  }
+  .button-header{
+    font-size: .6rem;
+  
   }
 }

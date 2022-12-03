@@ -1,0 +1,13 @@
+
+
+
+
+.button-header{
+  width: auto;
+  height: 2.5rem;
+  background-color: var(--secondColor);
+  color: var(--thirdColor);
+  font-family: 'Press Start 2P', sans-serif;
+  padding: 0 10px;
+  border:none;
+}
