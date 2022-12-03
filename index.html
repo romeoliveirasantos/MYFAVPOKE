@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./components/main-header.css">
     <link rel="stylesheet" href="./components/media-query.css">
+    <link rel="stylesheet" href="./components/main-header.css">
     <link rel="stylesheet" href="./components/header-nav.css">
+    <link rel="stylesheet" href="./components/main-section.css">
+    <link rel="stylesheet" href="./components/main-footer.css">
     <title>MYFAVPOKE</title>
   </head>
   <body>
-    <header class="main-header">
-      <img src="./assets/logo.svg" alt="">
+    <header class="main-header" id="top">
+      <img class="logo" src="./assets/logo.svg" alt="">
       <nav class="header-nav">
         <button class="button-header">MAIN</button>
         <button class="button-header">POKEMONS</button>
@@ -21,8 +23,31 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="main-section" id="main-mquery">
+      <section class="main">
+        <div class="div-p-mainSection"><p>PROJETO DESENVOLVIDO PARA PRATICAR 
+          TECNOLOGIAS COMO: HTML, CSS E 
+          MANIPULAÇÃO DO DOM COM JAVASCRIPT.</p></div>
+          <div class="div-img-mainSection" id="div-img-mquery">
+            <img id="img-tec" src="./assets/icons-tec.svg" alt="Icones das tecnologias html, css e javascript">
+          </div>
+      </section>
 
-    <footer></footer>
+      <section class="sub-section">
+        <div class="div-p-subSection">
+        <p>ALÉM DE APRESENTAR UMA LISTA DOS MEUS 
+          POKEMONS PREDILETOS,ESTE PROJETO IRÁ EXIBIR 
+          SEUS ATRIBUTOS,EVOLUÇÕES E AFINS</p>
+        </div>
+        <div class="div-img-subSection" id="mquery">
+        <img class="img-pokemon-mquery" id="img-pokemon" src="./assets/pokemonLogo.svg" alt="Logo do Pokemon">
+        </div>
+       </section>
+    </main>
+
+    <footer class="main-footer">
+      <p class="footer-p" id="fontP">DEVELOPED BY R.OLIVEIRA ©2022.</p>
+      <button class="to-top"><a href="#top"><img src="./assets/icons8-up-arrow-48.png" alt=""></a></button>
+    </footer>
   </body>
 </html>

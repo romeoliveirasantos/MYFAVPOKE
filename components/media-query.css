@@ -1,17 +1,104 @@
-@media (min-width: 280px) and (max-width: 520px){
+
+@media (min-width: 1024px) and (max-width: 1920px){
+  
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+
+  #fontP{
+    font-size: .5rem;
+    margin:0;
+  }
+  .div-p-mainSection p{
+    font-size: .7rem;
+  }
+  #img-tec{
+    width: 200px;
+  }
+  .div-p-subSection p{
+    padding-left: .6rem;
+    font-size: .7rem;
+  }
+  #img-pokemon{
+    width: 200px;
+  }
+  #mquery{
+   margin: 0;
+   padding: 0;
+  }
+}
+
+
+@media (min-width: 280px) and (max-width: 600px){
   .main-header{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-  
+    margin-top: 10px;
+  }
+  .logo{
+    padding-top: 10px;
   }
   .header-nav{
-    
+    padding-bottom: 10px;
   }
   .button-header{
     font-size: .6rem;
   
   }
+  .main-footer{
+    height: 100px;
+  }
+  
+  #fontP{
+    font-size: .3rem;
+    margin:0;
+  }
+  .main-section{
+   
+  }
+  
+  .main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  #img-tec{
+    margin-left: 10%;
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-p-mainSection p{
+    margin-top: 10px;
+    font-size: .7rem;
+  }
+  #div-img-mquery{
+    margin-top: 10px;
+  }
+  .sub-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+  }
+  #img-pokemon{
+    width: 130px;
+  }
+  .div-p-subSection p{
+    padding-left:0;
+    font-size: .6rem;
+  }
+  #mquery{
+    margin: 0;
+    padding-top: 1rem;
+  }
+  
 }

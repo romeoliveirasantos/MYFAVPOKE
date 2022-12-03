@@ -6,7 +6,7 @@
 :root{
   --mainColor: #500075;
   --secondColor: #2B023F;
-  --thirdColor: #FFFFFF
+  --thirdColor: #FFFFFF;
 }
 body{
   background-color: var(--mainColor);
