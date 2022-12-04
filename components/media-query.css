@@ -1,14 +1,10 @@
 
 @media (min-width: 1001px) and (max-width: 1920px){
-  #logo-mquery{
-    padding-top: 10px;
-    width: 350px;
-    
-  }
+ 
   #div-img-mquery{
     width: 50%;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100p;
     padding-top: 30px;
     /* margin-bottom: 130px; */
   }
@@ -19,23 +15,23 @@
     margin: 0;
     padding: 0;
    }
+   #about-main-mquery{
+    height: 100vh;
+   }
+   #paragraph-mquery{
+    line-height: .2rem;
+    padding-top: 3rem;
+   }
+   #main-section-mquery-about, #main-section-mquery:first-child{
+    font-size: 10px;
+   }
 }
 
-@media (max-width: 900px){
-  #logo-mquery{
-    padding-top: 10px;
-    width: 440px;
-    
-  }
-}
+
 
 @media (min-width: 600px) and (max-width: 1000px){
  
-  #logo-mquery{
-    padding-top: 10px;
-    width: 30%;
-    
-  }
+  
   #fontP{
     font-size: .5rem;
     margin:0;
@@ -94,10 +90,7 @@
     margin-top: 20px;
     padding: 0;
   }
-  #logo-mquery{
-    padding-top: 10px;
-    width: 300px;
-  }
+
   .header-nav{
     padding-top: 10px;
     padding-bottom: 10px;

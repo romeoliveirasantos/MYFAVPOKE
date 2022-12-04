@@ -32,7 +32,7 @@
   font-family: 'Press Start 2p', sans-serif;
   color: var(--thirdColor);
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 3.5rem;
   line-height: 2rem;
 }
 .about-paragraph:first-child{
