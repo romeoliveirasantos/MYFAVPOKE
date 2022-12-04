@@ -40,9 +40,9 @@ const haunterDesc = "Haunter é uma figura roxa, espetada e flutuante com olhos 
 const gengarDesc = "Gengar é um Pokémon de corpo redondo e parecido com uma sombra, com duas orelhas grandes e pontiagudas e pontas curtas alinhadas em suas costas. Gengar tem dois olhos vermelhos e um sorriso sinistro e cheio de dentes. Tem garras nas mãos. Gengar fica em suas duas pernas curtas, mas também pode levitar.Gengar são tipicamente mesquinhos e gostam de atormentar as pessoas, machucando-as. Eles são mais ativos durante as luas cheias, rastejando na calada da noite e se disfarçando de sombras."
 
 // abra vars
-const abra = "url(./assets/abra.gif)";
-const kadabra =  "url(./assets/kadabra.gif)";
-const alakazam = "url(./assets/alakazam.gif)";
+const abra = "url(./abra.gif)";
+const kadabra =  "url(./kadabra.gif)";
+const alakazam = "url(./alakazam.gif)";
 const abraDesc = "Abra é um Pokémon raposa marrom dourado com três dedos nas mãos e nas pernas. Seus olhos estão quase sempre fechados por causa de sua tendência a dormir muito. Os ombros são castanhos. Abra tem uma longa cauda com uma faixa marrom. Os pés têm 3 garras afiadas, 2 na frente e 1 no calcanhar. Abra mede 2'11 'e tem a mesma aparência física, não importa o gênero. Tem orelhas ligeiramente pontudas e seu corpo parece um pouco com uma espécie de armadura corporal na metade superior."
 const kadabraDesc = "Kadabra tem uma anatomia semelhante a Abra, no entanto, existem algumas diferenças. Kadabra segura uma colher de metal forjada por seus poderes psíquicos. Além disso, a cauda de Kadabra é grande e encaracolada. Ele também tem um 'bigode'. O bigode é maior no Kadabra masculino. O estômago de Kadabra tem três listras vermelhas, enquanto sua testa tem uma estrela vermelha de cinco pontas.Kadabra pode ter a habilidade Synchronize ou a habilidade Inner Focus . Não possui um corpo físico forte, mas prefere usar seus poderes psíquicos."
 const alakazamDesc = "Alakazam é ​​um Pokémon humanoide. É colorido de amarelo e marrom e tem algumas características de raposa. Também é mostrado carregando duas colheres, que usa para lutar com fortes poderes telecinéticos. Como Kadabra, o gênero de Alakazam pode ser identificado pelo comprimento de seu bigode."
