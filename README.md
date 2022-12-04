@@ -1,4 +1,4 @@
-<img  src="./assets/favIcon.svg"><h1>MY FAVORITE POKEMON</h1><img  src="./assets/favIcon.svg">
+<img src="./assets/favIcon.svg"><h1 display="inline">MY FAVORITE POKEMON</h1><img width="50px" src="./assets/favIcon.svg">
 
 <h2>My Favorite Pokemon é um projeto que visa mostrar os meus pokemons preditos, que marcaram minha infância e também, claro, praticar as tecnologias que estou estudando.</h2>
 
