@@ -11,3 +11,6 @@
 body{
   background-color: var(--mainColor);
 }
+a{
+  text-decoration: none;
+}

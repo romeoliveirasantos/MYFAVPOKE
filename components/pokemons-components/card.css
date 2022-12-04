@@ -1,0 +1,347 @@
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 40%;
+}
+
+.card{
+  width: 180px;
+  height: 250px;
+  background-color: var(--secondColor);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.evolution-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .4rem 3rem;
+  margin-right: 3px;
+  width: 50%;
+  height: 20px;
+  align-self: flex-end;
+  margin-top: 5px;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  background-color: var(--mainColor);
+  border: none;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+.evolution-button:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.pokemon-image-container-bulbasaur{
+  display: flex;
+  height: 100%;
+}
+.img-container-bulbasaur{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/bulbasaur.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image-container-charmander{
+  display: flex;
+  height: 100%;
+}
+.img-container-charmander{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/charmander.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image-container-squirtle{
+  display: flex;
+  height: 100%;
+}
+.img-container-squirtle{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/squirtle.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image-container-pichu{
+  display: flex;
+  height: 100%;
+}
+.img-container-pichu{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/pichu.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image-container-gastly{
+  display: flex;
+  height: 100%;
+}
+.img-container-gastly{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/gastly.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image-container-abra{
+  display: flex;
+  height: 100%;
+}
+.img-container-abra{
+  width: 130%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../../assets/pokemons/abra.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
+.pokemon-image{
+  width: 40%;
+  height: 40%;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+.desc-button{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-bulbasaur{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-bulbasaur:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-charmander{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-charmander:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-squirtle{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-squirtle:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-pichu{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-pichu:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-gastly{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-gastly:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+.desc-button-abra{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: var(--mainColor);
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  border: none;
+  cursor: pointer;
+}
+.desc-button-abra:hover{
+  color: var(--mainColor);
+  background-color: #8f8f8f;
+}
+
+.pokemon-name{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+}
+.pokemon-name-bulbasaur{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .2s ease-in-out;
+}
+.pokemon-name-charmander{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .2s ease-in-out;
+}
+.pokemon-name-squirtle{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .2s ease-in-out;
+}
+.pokemon-name-pichu{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .2s ease-in-out;
+}
+.pokemon-name-gastly{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .2s ease-in-out;
+}
+.pokemon-name-abra{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  font-size: .6rem;
+  padding-top: .3rem;
+  padding-bottom: .7rem;
+  transition: .4s ease-in-out;
+}

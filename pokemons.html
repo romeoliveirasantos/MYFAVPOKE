@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./components/media-query.css">
+    <link rel="stylesheet" href="./components/main-header.css">
+    <link rel="stylesheet" href="./components/header-nav.css">
+    <link rel="stylesheet" href="./components/main-section.css">
+    <link rel="stylesheet" href="./components/main-footer.css">
+    <link rel="stylesheet" href="./components/pokemons-components/pokemon-main-section.css">
+    <link rel="stylesheet" href="./components/pokemons-components/card.css">
+    <script src="./index.js" defer></script>
+    <title>MYFAVPOKE</title>
+    <link rel="icon" href="./assets/favIcon.svg">
+  </head>
+  <body>
+    <header class="main-header" id="top">
+      <img class="logo" src="./assets/logo.svg" alt="">
+      <nav class="header-nav">
+        <a href="./index.html"><button class="button-header">MAIN</button></a>
+        <a href="./pokemons.html"><button class="button-header">POKEMONS</button></a>
+        <a href="./about.html"><button class="button-header">SOBRE</button></a>
+      </nav>
+    </header>
+
+    <main class="pokemon-main">
+      <section class="card-container" id="pokemon-main-mquery"> 
+        <div class="card">
+          <button class="evolution-button" id="evolution-bulbasaur">EVOLUTION</button>
+            <div class="pokemon-image-container-bulbasaur">
+              <span class="img-container-bulbasaur"></span>
+            </div>
+          <button class="desc-button-bulbasaur">+</button>
+          <span class="pokemon-name-bulbasaur">BULBASAUR</span>
+        </div>
+
+        <div class="card">
+          <button class="evolution-button" id="evolution-charmander">EVOLUTION</button>
+            <div class="pokemon-image-container-charmander">
+              <span class="img-container-charmander"></span>
+            </div>
+          <button class="desc-button-charmander">+</button>
+          <span class="pokemon-name-charmander">CHARMANDER</span>
+        </div>
+
+        <div class="card">
+          <button class="evolution-button" id="evolution-squirtle">EVOLUTION</button>
+            <div class="pokemon-image-container-squirtle">
+              <span class="img-container-squirtle"></span>
+            </div>
+          <button class="desc-button-squirtle">+</button>
+          <span class="pokemon-name-squirtle">SQUIRTLE</span>
+        </div>
+
+        <div class="card">
+          <button class="evolution-button" id="evolution-pichu">EVOLUTION</button>
+            <div class="pokemon-image-container-pichu">
+              <span class="img-container-pichu"></span>
+            </div>
+          <button class="desc-button-pichu">+</button>
+          <span class="pokemon-name-pichu">PICHU</span>
+        </div>
+
+        <div class="card">
+          <button class="evolution-button" id="evolution-gastly">EVOLUTION</button>
+            <div class="pokemon-image-container-gastly">
+              <span class="img-container-gastly"></span>
+            </div>
+          <button class="desc-button-gastly">+</button>
+          <span class="pokemon-name-gastly">GASTLY</span>
+        </div>
+
+        <div class="card">
+          <button class="evolution-button" id="evolution-abra">EVOLUTION</button>
+            <div class="pokemon-image-container-abra">
+              <span class="img-container-abra"></span>
+            </div>
+          <button class="desc-button-abra">+</button>
+          <span class="pokemon-name-abra">ABRA</span>
+        </div>
+      </section>
+    </main>
+    
+
+    <footer class="main-footer">
+      <p class="footer-p" id="fontP">DEVELOPED BY R.OLIVEIRA©2022.</p>
+      <button class="to-top"><a href="#top"><img src="./assets/icons8-up-arrow-48.png" alt=""></a></button>
+    </footer>
+  </body>
+</html>

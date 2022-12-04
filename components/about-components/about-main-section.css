@@ -1,0 +1,40 @@
+.about-main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  width: 50%;
+}
+.h1-component{
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  padding-top: 3rem;
+}
+.about-name-h1{
+  color: var(--thirdColor);
+}
+.about-name-h1:hover{
+  color: #f0f008;
+}
+
+.about-paragraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2p', sans-serif;
+  color: var(--thirdColor);
+  text-align: center;
+  padding-top: 10rem;
+  line-height: 2rem;
+}
+.about-paragraph:first-child{
+  padding-top: 3rem;
+}

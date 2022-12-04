@@ -6,8 +6,9 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 4rem;
 }
 .logo{
   cursor:pointer;
+  width: 20%;
 }
