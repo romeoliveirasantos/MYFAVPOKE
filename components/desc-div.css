@@ -2,6 +2,7 @@
   display: none;
   justify-content: center;
   position: absolute;
+  align-items: flex-start;
 }
 .desc-conteudo{
   display: flex;
