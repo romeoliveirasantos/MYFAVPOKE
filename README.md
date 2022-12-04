@@ -1,4 +1,4 @@
-#MY FAVORITE POKEMON
+<h1>MY FAVORITE POKEMON</h1>
 
 <h2>My Favorite Pokemon é um projeto que visa mostrar os meus pokemons preditos, que marcaram minha infância e também, claro, praticar as tecnologias que estou estudando.</h2>
 
@@ -20,5 +20,5 @@ JavaScript <img align="center" alt="JS" height="30" width="40" src="https://raw.
 <a align="center" href="" target="_blank"><p>Confira</p></a>
 <br><br>
 <div align="center">
-<img src="/.github/preview.jpg" border="0">
+<img src="./assets/projeto.png" border="0">
 </div>
