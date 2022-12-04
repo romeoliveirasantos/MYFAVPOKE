@@ -1,0 +1,21 @@
+.desc-div{
+  display: none;
+  justify-content: center;
+  position: absolute;
+}
+.desc-conteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondColor);
+  font-family: 'Press Start 2p';
+  color: var(--thirdColor);
+  width: auto;
+  height: auto;
+  font-size: .7rem;
+  padding: 0 30px;
+  text-align: center;
+  line-height: 30px;
+  box-shadow: 15px 10px 40px #636161ad;
+  border-radius: 10px;
+}

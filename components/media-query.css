@@ -25,6 +25,13 @@
    #main-section-mquery-about, #main-section-mquery:first-child{
     font-size: 10px;
    }
+   #desc-mquery{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondColor);
+    width: 550px;
+    height: 400px;
+  }
 }
 
 
@@ -77,6 +84,17 @@
       align-items: center;
       height: 1000px;
       width: 70%;
+    }
+    #desc-mquery{
+      display: flex;
+      justify-content: center;
+      background-color: var(--secondColor);
+      width: auto;
+      height: auto;
+      font-size: .7rem;
+      padding: 10px 30px;
+      text-align: center;
+      line-height: 30px;
     }
 }
 
@@ -237,5 +255,16 @@
     font-size: .6rem;
     padding-top: .3rem;
     padding-bottom: .3rem;
+  }
+  #desc-mquery{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondColor);
+    width: auto;
+    height: auto;
+    font-size: .7rem;
+    padding: 10px 30px;
+    text-align: center;
+    line-height: 30px;
   }
 }

@@ -1,0 +1,22 @@
+.button-container-desc{
+  display: inline-block;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+.buttonClose-descDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .3rem;
+  border: none;
+  position:absolute;
+  background-image: url(./../assets/closeIcon.png);
+  filter: invert(100%);
+  padding-left: .2rem;
+  cursor:pointer;
+  
+}

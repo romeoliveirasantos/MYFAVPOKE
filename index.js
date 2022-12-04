@@ -3,6 +3,7 @@
 const bulbasaur = "url(./../../assets/pokemons/bulbasaur.gif)";
 const ivysaur = "url(./../../assets/pokemons/ivysaur.gif)";
 const venusaur = "url(./../../assets/pokemons/venusaur.gif)"; 
+const bulbasaurDesc = "Bulbasaur se assemelha a um pequeno anfíbio/sapo, mas carrega três garras em cada um de seus pés e não tem cauda. Ele também tem olhos grandes e vermelhos e dentes pequenos e afiados. Sua pele é de cor turquesa clara com manchas verdes escuras. Tem três garras nas quatro patas. Sua característica mais notável, é o bulbo em suas costas, que segundo seu registro na Pokédex , foi ali plantado ao nascer."
 
 // charmander vars
 const charmander = "url(./../../assets/pokemons/charmander.gif)";
@@ -35,6 +36,7 @@ const alakazam = "url(./../../assets/pokemons/alakazam.gif)";
 const imageBulbasaur = document.querySelector('.img-container-bulbasaur');
 const buttonBulbasaur = document.querySelector('#evolution-bulbasaur');
 const bulbasaurName = document.querySelector('.pokemon-name-bulbasaur')
+const descButtonBulbasaur = document.querySelector('.desc-button-bulbasaur');
 
 // charmander DOM elements
 const imageCharmander = document.querySelector('.img-container-charmander');
@@ -61,6 +63,10 @@ const imageAbra = document.querySelector('.img-container-abra');
 const buttonAbra = document.querySelector('#evolution-abra');
 const abraName = document.querySelector('.pokemon-name-abra');
 
+const divDesc = document.querySelector('.desc-div');
+const conteudoDesc = document.querySelector('.desc-conteudo');
+const closeButton = document.querySelector('.buttonClose-descDiv')
+
 
 //------------------------------------------------------------------------------------//
 
@@ -71,6 +77,8 @@ buttonSquirtle.addEventListener('click', evolutionSquirtle)
 buttonPichu.addEventListener('click', evolutionPichu)
 buttonGastly.addEventListener('click', evolutionGastly)
 buttonAbra.addEventListener('click', evolutionAbra)
+descButtonBulbasaur.addEventListener('click', openDesc)
+closeButton.addEventListener('click', closeDesc)
 
 //------------------------------------------------------------------------------------//
 
@@ -155,3 +163,22 @@ function evolutionAbra(){
     abraName.innerText = "KADABRA"
   }
 }
+
+function openDesc(){
+  if(divDesc.style.display === "flex"){
+    divDesc.style.display = "none"
+  }else{
+    divDesc.style.display = "flex"
+    conteudoDesc.innerText = `${bulbasaurDesc}`
+  }
+}
+
+function closeDesc(){
+  if(divDesc.style.display === "flex"){
+    divDesc.style.display = "none"
+  }
+}
+//----------------------------------------------------------------------//
+
+
+
