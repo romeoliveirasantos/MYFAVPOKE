@@ -1,6 +1,6 @@
-<img width="50px" src="./assets/favIcon.svg"> #MY FAVORITE POKEMON <img width="50px" src="./assets/favIcon.svg">
+<img width="20px" src="./assets/favIcon.svg"> MY FAVORITE POKEMON <img width="20px" src="./assets/favIcon.svg">
 
-<h2>My Favorite Pokemon é um projeto que visa mostrar os meus pokemons preditos, que marcaram minha infância e também, claro, praticar as tecnologias que estou estudando.</h2>
+<h4>My Favorite Pokemon é um projeto que visa mostrar os meus pokemons preditos, que marcaram minha infância e também, claro, praticar as tecnologias que estou estudando.</h4>
 
 <p>Desenvolvido 100% por mim, desde o layout até o código. Segue link para o figma do projeto <strong><a href="https://www.figma.com/file/XDysrDjvWhPhV5EEZo7Ybh/MYFAVPOKE?node-id=2%3A10&t=b4MgxGCF6rNkppG7-1" target="_blank">Figma - MYFAVPOKE</a></strong></p>
 
